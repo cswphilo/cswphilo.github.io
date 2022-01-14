@@ -15,11 +15,3 @@ Keywords: structural proof theory, constructive logic, categorical logic, skew m
 
 ### Presentation
 1. Proof theory of skew non-commutative MILL at [WLD'22](https://cs.ioc.ee/lsg/wld22/), Tallinn [slide](https://drive.google.com/file/d/17EfLXpmn6L82ei6Dwt2fXypSA2HTrVLL/view?usp=sharing)
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
