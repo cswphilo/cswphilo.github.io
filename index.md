@@ -14,7 +14,7 @@ My supervisors are [Tarmo Uustalu](https://cs.ioc.ee/~tarmo/) and [Niccolò Velt
 I am interested in structural proof theory and its connection with other disciplines.
 In particular, I am now working on characterizing proof systems (normally sequent calculus) for skew monoidal variant categories and from the otherside, constructing categorical models for intuitionistic (normally non commutative) multiplicative (possibly with exponential) logics.
 <br>
-Keywords: [Curry-Howard-Lambek correspondence](https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence#Curry%E2%80%93Howard%E2%80%93Lambek_correspondence) structural proof theory, constructive logic, categorical logic, skew monoidal category
+Keywords: [Curry-Howard-Lambek correspondence](https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence#Curry%E2%80%93Howard%E2%80%93Lambek_correspondence), structural proof theory, constructive logic, categorical logic, skew monoidal category
 
 ---
 
