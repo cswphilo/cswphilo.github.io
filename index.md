@@ -26,4 +26,4 @@ Keywords: [Curry-Howard-Lambek correspondence](https://en.wikipedia.org/wiki/Cur
 
 ### Presentations
 1. Proof theory of skew non-commutative MILL at [NCL'22](https://easychair.org/smart-program/NCL'22/), Łódź
-1. Proof theory of skew non-commutative MILL at [WLD'22](https://cs.ioc.ee/lsg/wld22/), Tallinn
+2. Proof theory of skew non-commutative MILL at [WLD'22](https://cs.ioc.ee/lsg/wld22/), Tallinn
