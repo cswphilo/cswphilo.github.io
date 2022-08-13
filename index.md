@@ -19,10 +19,10 @@ Keywords: [Curry-Howard-Lambek correspondence](https://en.wikipedia.org/wiki/Cur
 ---
 
 ### Publication
-1. Tarmo Uustalu, Niccolò Veltri, Cheng-Syuan Wan. Proof theory of skew non-commutative MILL.<br>
- In A. Indrzejczak, M. Zawidzki, eds., _Proc. of 10th Int. Conf. on [Non-classical Logics: Theory and Applications](https://easychair.org/smart-program/NCL'22/), NCL '22 (Lódz, March 2022), Electron. Proc. in Theor. Comput. Sci., pp. 118-135. Open Publishing Assoc., 2022. [pdf](https://arxiv.org/abs/2204.06727v1)
+1. Tarmo Uustalu, Niccolò Veltri, Cheng-Syuan Wan. **Proof theory of skew non-commutative MILL.** <br>
+ In A. Indrzejczak, M. Zawidzki, eds., *Proc. of 10th Int. Conf. on [Non-classical Logics: Theory and Applications](https://easychair.org/smart-program/NCL'22/), NCL '22 (Lódz, March 2022)*, v. 358 of *Electron. Proc. in Theor. Comput. Sci.*, pp. 118-135. Open Publishing Assoc., 2022. [pdf](https://arxiv.org/abs/2204.06727v1)
 
 ---
 
 ### Presentations
-1. Proof theory of skew non-commutative MILL at [WLD'22](https://cs.ioc.ee/lsg/wld22/), Tallinn, [NCL'22](https://easychair.org/smart-program/NCL'22/), Łódź, and [LC'22](http://icetcs.ru.is/lc2022/), Reykjavík.
+1. **Proof theory of skew non-commutative MILL** at [WLD'22](https://cs.ioc.ee/lsg/wld22/), Tallinn, [NCL'22](https://easychair.org/smart-program/NCL'22/), Łódź, and [LC'22](http://icetcs.ru.is/lc2022/), Reykjavík.
