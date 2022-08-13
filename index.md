@@ -21,6 +21,7 @@ Keywords: [Curry-Howard-Lambek correspondence](https://en.wikipedia.org/wiki/Cur
 ### Publication
 1. Tarmo Uustalu, Niccolò Veltri, Cheng-Syuan Wan. Proof theory of skew non-commutative MILL.<br>
  In A. Indrzejczak, M. Zawidzki, eds., _Proc. of 10th Int. Conf. on [Non-classical Logics: Theory and Applications](https://easychair.org/smart-program/NCL'22/), NCL '22 (Lódz, March 2022), Electron. Proc. in Theor. Comput. Sci., pp. 118-135. Open Publishing Assoc., 2022. [pdf](https://arxiv.org/abs/2204.06727v1)
+
 ---
 
 ### Presentations
