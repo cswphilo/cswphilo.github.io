@@ -9,3 +9,5 @@ Gemfile.lock
 .lh/.gitignore.json
 .lh/index.html.json
 *.json
+*.json
+.lh/index.html.json
