@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 17,
+            "activePatchIndex": 19,
             "patches": [
                 {
                     "date": 1693603763545,
@@ -76,6 +76,14 @@
                 {
                     "date": 1714389037182,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     <style type =\"text/css\">\n         body {\n             background-color: #fef6e9;\n             font-family: 'Noto Sans Mono', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;\n-            font-size: medium;\n+            font-size: small;\n             margin-left: 35px;\n             margin-right: 35px;\n         }\n         p {\n"
+                },
+                {
+                    "date": 1714389218259,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,9 +68,9 @@\n         <br />\n             In A. Indrzejczak, M. Zawidzki, eds., <em>Proc. of 10th Int. Conf. on Non-classical Logics: Theory and Applications, NCL 2022 (Lódź, March 2022)</em>, v. 358 of <em>Electron. Proc. in Theor. Comput. Sci.</em>, pp. 118-135. Open Publishing Assoc., 2022. \n         <br />\n             <a href=\"https://github.com/niccoloveltri/code-skewmonclosed\">Agda code</a> \n-            <a href=\"https://arxiv.org/abs/2204.06727v1\">pdf</a>\n+            <a href=\"https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?NCL2022.9.pdf\">pdf</a>\n         </li>\n     </ol>\n     </div>\n     <hr/>\n"
+                },
+                {
+                    "date": 1714389257664,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n     <link href=\"https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap\" rel=\"stylesheet\">\n     <style type =\"text/css\">\n         body {\n-            background-color: #fef6e9;\n+            background-color: #ffffff;\n             font-family: 'Noto Sans Mono', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;\n             font-size: small;\n             margin-left: 35px;\n             margin-right: 35px;\n"
                 }
             ],
             "date": 1693603763545,
