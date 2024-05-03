@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 28,
+            "activePatchIndex": 29,
             "patches": [
                 {
                     "date": 1693603763545,
@@ -120,6 +120,10 @@
                 {
                     "date": 1714727441816,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     <title> Cheng-Syuan Wan </title>\n </head>\n <body>\n     <div><h1><p>Cheng-Syuan Wan</p></h1>\n-        <img src=\"avatar.PNG\" style=\"width:35%;height:35%;\">\n+        <img src=\"avatar.PNG\" style=\"width:30%;height:30%;\">\n     </div> \n     <hr/>\n     <div>\n         I am a PhD student in the <a href=\"https://cs.ioc.ee/lsg/\">Logic and Semantics Group</a> at <a href=\"https://taltech.ee/en/\">Tallinn University of Technology</a>.\n"
+                },
+                {
+                    "date": 1714727722228,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     <title> Cheng-Syuan Wan </title>\n </head>\n <body>\n     <div><h1><p>Cheng-Syuan Wan</p></h1>\n-        <img src=\"avatar.PNG\" style=\"width:30%;height:30%;\">\n+        <img src=\"avatar.PNG\" style=\"width:29%;height:29%;\">\n     </div> \n     <hr/>\n     <div>\n         I am a PhD student in the <a href=\"https://cs.ioc.ee/lsg/\">Logic and Semantics Group</a> at <a href=\"https://taltech.ee/en/\">Tallinn University of Technology</a>.\n"
                 }
             ],
             "date": 1693603763545,
