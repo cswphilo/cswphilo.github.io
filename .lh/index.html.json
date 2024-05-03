@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 24,
+            "activePatchIndex": 26,
             "patches": [
                 {
                     "date": 1693603763545,
@@ -104,6 +104,14 @@
                 {
                     "date": 1714726679174,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     <title> Cheng-Syuan Wan </title>\n </head>\n <body>\n     <div><h1><p>Cheng-Syuan Wan</p></h1>\n-        <!-- <img src=\"avatar.jpg\" style=\"width:16%;height:16%; margin-left: 140px;\"> -->\n+        <img src=\"avatar.png\" style=\"width:16%;height:16%;\">\n     </div> \n     <hr/>\n     <div>\n         I am a PhD student in the <a href=\"https://cs.ioc.ee/lsg/\">Logic and Semantics Group</a> at <a href=\"https://taltech.ee/en/\">Tallinn University of Technology</a>.\n"
+                },
+                {
+                    "date": 1714726754565,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     <title> Cheng-Syuan Wan </title>\n </head>\n <body>\n     <div><h1><p>Cheng-Syuan Wan</p></h1>\n-        <img src=\"avatar.png\" style=\"width:16%;height:16%;\">\n+        <img src=\"avatar.png\" style=\"width:35%;height:35%;\">\n     </div> \n     <hr/>\n     <div>\n         I am a PhD student in the <a href=\"https://cs.ioc.ee/lsg/\">Logic and Semantics Group</a> at <a href=\"https://taltech.ee/en/\">Tallinn University of Technology</a>.\n"
+                },
+                {
+                    "date": 1714726762072,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -100,7 +100,7 @@\n         </li>\n         </ul>\n     </div>\n     <address>\n-        Last update 29.04.2024\n+        Last update 03.05.2024\n     </address>\n </body>\n"
                 }
             ],
             "date": 1693603763545,
