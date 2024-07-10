@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 33,
+            "activePatchIndex": 34,
             "patches": [
                 {
                     "date": 1693603763545,
@@ -140,6 +140,10 @@
                 {
                     "date": 1714728208622,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     <title> Cheng-Syuan Wan </title>\n </head>\n <body>\n     <div><h1><p>Cheng-Syuan Wan</p></h1>\n-        <img src=\"avatar2.png\" style=\"width:15%;height:15%;\">\n+        <img src=\"avatar3.png\" style=\"width:15%;height:15%;\">\n     </div> \n     <hr/>\n     <div>\n         I am a PhD student in the <a href=\"https://cs.ioc.ee/lsg/\">Logic and Semantics Group</a> at <a href=\"https://taltech.ee/en/\">Tallinn University of Technology</a>.\n"
+                },
+                {
+                    "date": 1720628069734,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -76,8 +76,12 @@\n     <hr/>\n     <div>\n         <h3 id=\"presentations\">Presentations</h3>\n         <ul>\n+           <li><b>Craig Interpolation for Semi-Substructural Logics </b> at\n+                <ul>\n+                    <li><a href=\"https://lipn.univ-paris13.fr/TLLA/2024/\">TLLA'23</a>, Tallinn. </li>\n+                </ul>\n            <li><b>Semi-Substructural Logics with Additives</b> at\n                 <ul>\n                     <li><a href=\"https://sites.google.com/ufg.br/lsfa2023/\">LSFA'23</a>, Rome. </li>\n                 </ul>\n"
                 }
             ],
             "date": 1693603763545,
