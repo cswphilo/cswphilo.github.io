@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 34,
+            "activePatchIndex": 36,
             "patches": [
                 {
                     "date": 1693603763545,
@@ -144,6 +144,14 @@
                 {
                     "date": 1720628069734,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -76,8 +76,12 @@\n     <hr/>\n     <div>\n         <h3 id=\"presentations\">Presentations</h3>\n         <ul>\n+           <li><b>Craig Interpolation for Semi-Substructural Logics </b> at\n+                <ul>\n+                    <li><a href=\"https://lipn.univ-paris13.fr/TLLA/2024/\">TLLA'23</a>, Tallinn. </li>\n+                </ul>\n            <li><b>Semi-Substructural Logics with Additives</b> at\n                 <ul>\n                     <li><a href=\"https://sites.google.com/ufg.br/lsfa2023/\">LSFA'23</a>, Rome. </li>\n                 </ul>\n"
+                },
+                {
+                    "date": 1727963140221,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,8 +56,15 @@\n     <hr/>\n     <div>\n         <h3>Publications</h3>\n     <ol>\n+        <li>C.-S. Wan. <b>Semi-substructural logics à la Lambek.</b> \n+        <br />\n+            In A. Indrzejczak, M. Zawidzki, eds., <em>Proc. of 10th Int. Conf. on Non-classical Logics: Theory and Applications, NCL 2022 (Lódź, September 2024)</em>, <em>Electron. Proc. in Theor. Comput. Sci.</em>, to appear\n+        <br />\n+            <!-- <a href=\"https://github.com/cswphilo/SkewMonAdd\">Agda code</a> \n+            <a href=\"https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?LSFA2023.8.pdf\">pdf</a> -->\n+        </li>\n         <li>N. Veltri, C.-S. Wan. <b>Semi-substructural logics with additives.</b> \n         <br />\n             In T. Kutsia, D. Ventura, D. Monniaux, J. F. Morales, eds., <em>Proc. of 18th Int. Wksh. on Logical and Semantic Frameworks with Applications, LSFA 2023 (Rome, July 2023) and 10th Wksh. of Horn Clauses for Verification and Synthesis, HCVS 2023 (Paris, Apr. 2023)</em>, v. 402 of <em>Electron. Proc. in Theor. Comput. Sci.</em>, pp. 63-80. Open Publishing Assoc., 2024 \n         <br />\n@@ -76,10 +83,15 @@\n     <hr/>\n     <div>\n         <h3 id=\"presentations\">Presentations</h3>\n         <ul>\n+           <li><b>Semi-Substructural Logics à la Lambek </b> at\n+                <ul>\n+                    <li><a href=\"https://easychair.org/smart-program/NCL'24/index.html\">NCL'24</a>, Łódź. </li>\n+                </ul>\n            <li><b>Craig Interpolation for Semi-Substructural Logics </b> at\n                 <ul>\n+                    <li><a href=\"https://proofsociety2024.com/\">PS'23</a>, Birmingham. </li>\n                     <li><a href=\"https://lipn.univ-paris13.fr/TLLA/2024/\">TLLA'23</a>, Tallinn. </li>\n                 </ul>\n            <li><b>Semi-Substructural Logics with Additives</b> at\n                 <ul>\n@@ -90,17 +102,17 @@\n                 <li><a href=\"https://lc2023.unimi.it/\">LC'23</a>, Milan. </li>\n             </ul>\n            <li><b>Skew multiplicative intuitionistic linear logic</b> at\n             <ul>\n-                <li><a href=\"https://cs.ioc.ee/lsg/wld23/\">WLD'23</a>, Tallinn. </li>\n                 <li><a href=\"https://cful.letras.ulisboa.pt/lancog/events/plexus-inaugural-conference-24-27-may-2023/\">PLEXUS Inaugural Conference</a>, Lisbon. </li>\n+                <li><a href=\"https://cs.ioc.ee/lsg/wld23/\">WLD'23</a>, Tallinn. </li>           \n             </ul>\n            </li>\n            <li><b>Proof theory of skew non-commutative MILL</b> at \n             <ul>\n+                <li><a href=\"http://icetcs.ru.is/lc2022/\">LC'22</a>, Reykjavík. </li>\n+                <li><a href=\"https://easychair.org/smart-program/NCL'22/\">NCL'22</a>, Łódź. </li>\n                 <li><a href=\"https://cs.ioc.ee/lsg/wld22/\">WLD'22</a>, Tallinn. </li>\n-                <li><a href=\"https://easychair.org/smart-program/NCL'22/\">NCL'22</a>, Łódź. </li>\n-                <li><a href=\"http://icetcs.ru.is/lc2022/\">LC'22</a>, Reykjavík. </li>\n             </ul>\n         </li>\n         </ul>\n     </div>\n"
+                },
+                {
+                    "date": 1727963146061,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -116,7 +116,7 @@\n         </li>\n         </ul>\n     </div>\n     <address>\n-        Last update 03.05.2024\n+        Last update 03.10.2024\n     </address>\n </body>\n"
                 }
             ],
             "date": 1693603763545,
