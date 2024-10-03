@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 36,
+            "activePatchIndex": 37,
             "patches": [
                 {
                     "date": 1693603763545,
@@ -152,6 +152,10 @@
                 {
                     "date": 1727963146061,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -116,7 +116,7 @@\n         </li>\n         </ul>\n     </div>\n     <address>\n-        Last update 03.05.2024\n+        Last update 03.10.2024\n     </address>\n </body>\n"
+                },
+                {
+                    "date": 1727963309923,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -89,10 +89,10 @@\n                     <li><a href=\"https://easychair.org/smart-program/NCL'24/index.html\">NCL'24</a>, Łódź. </li>\n                 </ul>\n            <li><b>Craig Interpolation for Semi-Substructural Logics </b> at\n                 <ul>\n-                    <li><a href=\"https://proofsociety2024.com/\">PS'23</a>, Birmingham. </li>\n-                    <li><a href=\"https://lipn.univ-paris13.fr/TLLA/2024/\">TLLA'23</a>, Tallinn. </li>\n+                    <li><a href=\"https://proofsociety2024.com/\">PS'24</a>, Birmingham. </li>\n+                    <li><a href=\"https://lipn.univ-paris13.fr/TLLA/2024/\">TLLA'24</a>, Tallinn. </li>\n                 </ul>\n            <li><b>Semi-Substructural Logics with Additives</b> at\n                 <ul>\n                     <li><a href=\"https://sites.google.com/ufg.br/lsfa2023/\">LSFA'23</a>, Rome. </li>\n"
                 }
             ],
             "date": 1693603763545,
