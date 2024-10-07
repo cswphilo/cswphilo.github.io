@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 37,
+            "activePatchIndex": 38,
             "patches": [
                 {
                     "date": 1693603763545,
@@ -156,6 +156,10 @@
                 {
                     "date": 1727963309923,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -89,10 +89,10 @@\n                     <li><a href=\"https://easychair.org/smart-program/NCL'24/index.html\">NCL'24</a>, Łódź. </li>\n                 </ul>\n            <li><b>Craig Interpolation for Semi-Substructural Logics </b> at\n                 <ul>\n-                    <li><a href=\"https://proofsociety2024.com/\">PS'23</a>, Birmingham. </li>\n-                    <li><a href=\"https://lipn.univ-paris13.fr/TLLA/2024/\">TLLA'23</a>, Tallinn. </li>\n+                    <li><a href=\"https://proofsociety2024.com/\">PS'24</a>, Birmingham. </li>\n+                    <li><a href=\"https://lipn.univ-paris13.fr/TLLA/2024/\">TLLA'24</a>, Tallinn. </li>\n                 </ul>\n            <li><b>Semi-Substructural Logics with Additives</b> at\n                 <ul>\n                     <li><a href=\"https://sites.google.com/ufg.br/lsfa2023/\">LSFA'23</a>, Rome. </li>\n"
+                },
+                {
+                    "date": 1728299164812,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,9 +58,9 @@\n         <h3>Publications</h3>\n     <ol>\n         <li>C.-S. Wan. <b>Semi-substructural logics à la Lambek.</b> \n         <br />\n-            In A. Indrzejczak, M. Zawidzki, eds., <em>Proc. of 10th Int. Conf. on Non-classical Logics: Theory and Applications, NCL 2022 (Lódź, September 2024)</em>, <em>Electron. Proc. in Theor. Comput. Sci.</em>, to appear\n+            In A. Indrzejczak, M. Zawidzki, eds., <em>Proc. of 10th Int. Conf. on Non-classical Logics: Theory and Applications, NCL 2024 (Lódź, September 2024)</em>, <em>Electron. Proc. in Theor. Comput. Sci.</em>, to appear\n         <br />\n             <!-- <a href=\"https://github.com/cswphilo/SkewMonAdd\">Agda code</a> \n             <a href=\"https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?LSFA2023.8.pdf\">pdf</a> -->\n         </li>\n"
                 }
             ],
             "date": 1693603763545,
