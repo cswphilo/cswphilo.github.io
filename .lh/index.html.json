@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 38,
+            "activePatchIndex": 40,
             "patches": [
                 {
                     "date": 1693603763545,
@@ -160,6 +160,14 @@
                 {
                     "date": 1728299164812,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,9 +58,9 @@\n         <h3>Publications</h3>\n     <ol>\n         <li>C.-S. Wan. <b>Semi-substructural logics à la Lambek.</b> \n         <br />\n-            In A. Indrzejczak, M. Zawidzki, eds., <em>Proc. of 10th Int. Conf. on Non-classical Logics: Theory and Applications, NCL 2022 (Lódź, September 2024)</em>, <em>Electron. Proc. in Theor. Comput. Sci.</em>, to appear\n+            In A. Indrzejczak, M. Zawidzki, eds., <em>Proc. of 10th Int. Conf. on Non-classical Logics: Theory and Applications, NCL 2024 (Lódź, September 2024)</em>, <em>Electron. Proc. in Theor. Comput. Sci.</em>, to appear\n         <br />\n             <!-- <a href=\"https://github.com/cswphilo/SkewMonAdd\">Agda code</a> \n             <a href=\"https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?LSFA2023.8.pdf\">pdf</a> -->\n         </li>\n"
+                },
+                {
+                    "date": 1728896096810,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -81,8 +81,16 @@\n     </ol>\n     </div>\n     <hr/>\n     <div>\n+         <h3>Manuscripts</h3>\n+         <li>N. Veltri, C.-S. Wan. <b>Semi-substructural logics à la Lambek.</b> \n+         <br />\n+         <a href=\"https://cswphilo.github.io/papers/skInterpolation.pdf\" target=\"_blank\">pdf</a>\n+         </li>\n+    </div>\n+    <hr/>\n+    <div>\n         <h3 id=\"presentations\">Presentations</h3>\n         <ul>\n            <li><b>Semi-Substructural Logics à la Lambek </b> at\n                 <ul>\n"
+                },
+                {
+                    "date": 1728896116225,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -124,7 +124,7 @@\n         </li>\n         </ul>\n     </div>\n     <address>\n-        Last update 03.10.2024\n+        Last update 14.10.2024\n     </address>\n </body>\n"
                 }
             ],
             "date": 1693603763545,
