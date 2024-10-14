@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 42,
+            "activePatchIndex": 43,
             "patches": [
                 {
                     "date": 1693603763545,
@@ -176,6 +176,10 @@
                 {
                     "date": 1728896429237,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,8 +26,10 @@\n     <div>\n         I am a PhD student in the <a href=\"https://cs.ioc.ee/lsg/\">Logic and Semantics Group</a> at <a href=\"https://taltech.ee/en/\">Tallinn University of Technology</a>.\n         <br/> \n         My supervisors are <a href=\"https://cs.ioc.ee/~tarmo/\">Tarmo Uustalu</a> and <a href=\"https://niccoloveltri.github.io/\">Niccolò Veltri</a>.\n+        <br/>\n+        Here is my <a href=\"https://cswphilo.github.io/CV.pdf\">CV</a>.\n     </div>\n     <hr/>\n     <div>\n         <h3>Contact</h3>\n"
+                },
+                {
+                    "date": 1728896546257,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -85,9 +85,9 @@\n     <hr/>\n     <div>\n     <ol>\n          <h3>Manuscripts</h3>\n-         <li>N. Veltri, C.-S. Wan. <b>Semi-substructural logics à la Lambek.</b> \n+         <li>N. Veltri, C.-S. Wan. <b>Craig Interpolation for Semi-Substructural Logics.</b> \n          <br />\n          <a href=\"https://github.com/niccoloveltri/code-skewmonclosed/tree/interpolation\">Agda code</a> \n          <a href=\"https://cswphilo.github.io/papers/skInterpolation.pdf\" target=\"_blank\">pdf</a>\n          </li>\n"
                 }
             ],
             "date": 1693603763545,
