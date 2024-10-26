@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 48,
+            "activePatchIndex": 49,
             "patches": [
                 {
                     "date": 1693603763545,
@@ -200,6 +200,10 @@
                 {
                     "date": 1729089170025,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -131,7 +131,7 @@\n         </li>\n         </ul>\n     </div>\n     <address>\n-        Last update 14.10.2024\n+        Last update 16.10.2024\n     </address>\n </body>\n"
+                },
+                {
+                    "date": 1729952951685,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -117,9 +117,9 @@\n                 <li><a href=\"https://lc2023.unimi.it/\">LC'23</a>, Milan. </li>\n             </ul>\n            <li><b>Skew multiplicative intuitionistic linear logic</b> at\n             <ul>\n-                <li><a href=\"https://cful.letras.ulisboa.pt/lancog/events/plexus-inaugural-conference-24-27-may-2023/\">PLEXUS Inaugural Conference</a>, Lisbon. </li>\n+                <li><a href=\"https://plexuslogic.wordpress.com/plexus-inaugural-conference/\">PLEXUS Inaugural Conference</a>, Lisbon. </li>\n                 <li><a href=\"https://cs.ioc.ee/lsg/wld23/\">WLD'23</a>, Tallinn. </li>           \n             </ul>\n            </li>\n            <li><b>Proof theory of skew non-commutative MILL</b> at \n"
                 }
             ],
             "date": 1693603763545,
