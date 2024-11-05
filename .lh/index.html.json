@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 50,
+            "activePatchIndex": 51,
             "patches": [
                 {
                     "date": 1693603763545,
@@ -208,6 +208,10 @@
                 {
                     "date": 1729979630237,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n     </div>\n     <hr/>\n     <div>\n         <h3>Research Interests</h3>\n-        Structural proof theory, substructural logic, categorical and algebraic semantics.\n+        Structural proof theory, substructural logic, categorical and algebraic semantics, logic in computer science, formalization of mathematics.\n         <!-- I am interested in structural proof theory and its connection with other disciplines. \n         <br/>\n         In particular, I am now working on \n         <ul>\n"
+                },
+                {
+                    "date": 1730803125704,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n     </div>\n     <hr/>\n     <div>\n         <h3>Research Interests</h3>\n-        Structural proof theory, substructural logic, categorical and algebraic semantics, logic in computer science, formalization of mathematics.\n+        Structural proof theory, substructural logic, categorical and algebraic semantics, formalization of mathematics.\n         <!-- I am interested in structural proof theory and its connection with other disciplines. \n         <br/>\n         In particular, I am now working on \n         <ul>\n"
                 }
             ],
             "date": 1693603763545,

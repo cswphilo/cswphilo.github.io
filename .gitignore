@@ -12,3 +12,5 @@ Gemfile.lock
 *.json
 .lh/index.html.json
 *.json
+/.lh
+*.json
