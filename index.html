@@ -1,203 +1,373 @@
 <!DOCTYPE html>
-
-<head> 
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap" rel="stylesheet">
-    <style type ="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;700&amp;display=swap" rel="stylesheet">
+    <style type="text/css">
         body {
-            background-color: #fdf2de;
-            font-family: 'Consolas', sans-serif, 'Noto Sans Mono';
-            font-size: medium;
-            margin-left: 35px;
-            margin-right: 35px;
+            background: #ffffff;
+            color: #444444;
+            font-family: "Noto Sans Mono", ui-monospace, "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+            font-size: 15px;
+            line-height: 1.5;
+            margin: 0;
+        }
+        a {
+            color: #005f00;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #888888;
+        }
+        h1,
+        h2,
+        h3 {
+            color: #444444;
+            line-height: 1.25;
+            margin: 0 0 12px;
+        }
+        h1 {
+            color: #005560;
+            font-size: 37px;
+            font-weight: 700;
+        }
+        h2 {
+            border-bottom: 1px solid #dddddd;
+            font-size: 21px;
+            font-weight: 700;
+            padding-bottom: 7px;
+        }
+        h3 {
+            font-size: 17px;
+            font-weight: 700;
         }
         p {
-            color:#000000;
+            margin: 0 0 16px;
+        }
+        ol,
+        ul {
+            margin-top: 0;
+        }
+        .wrapper {
+            margin: 0 auto;
+            max-width: 1040px;
+            padding: 0 24px;
+        }
+        .site-description {
+            color: #777777;
+            margin: 0 0 24px;
+        }
+        .top-grid {
+            display: grid;
+            gap: 42px;
+            grid-template-columns: minmax(0, 2fr) 300px;
+            padding: 42px 0 36px;
+        }
+        .intro-column,
+        .main-content {
+            min-width: 0;
+        }
+        .intro-column section + section {
+            margin-top: 28px;
+        }
+        .main-content {
+            border-top: 1px solid #dddddd;
+            padding-top: 34px;
+        }
+        .main-content section + section {
+            margin-top: 34px;
+        }
+        .profile-photo {
+            float: left;
+            height: auto;
+            margin: 4px 24px 14px 0;
+            width: 185px;
+        }
+        .intro-section::after {
+            clear: both;
+            content: "";
+            display: block;
+        }
+        .publication-list,
+        .presentation-list {
+            padding-left: 22px;
+        }
+        .publication-list > li,
+        .presentation-list > li {
+            margin-bottom: 14px;
+        }
+        .updates-column {
+            font-size: 14px;
+        }
+        .widget {
+            margin-bottom: 28px;
+        }
+        .widget-title {
+            border-bottom: 0;
+            font-size: 19px;
+            font-weight: 400;
+            margin-bottom: 12px;
+            padding-bottom: 0;
+        }
+        .news-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .news-list li {
+            border-top: 1px solid #dddddd;
+            padding: 12px 0;
+        }
+        .news-list li:first-child {
+            border-top: 0;
+            padding-top: 0;
+        }
+        .news-list time {
+            color: #777777;
+            display: block;
+            font-size: 13px;
+            margin-bottom: 4px;
+        }
+        .contact-table td {
+            padding: 0 8px 6px 0;
+            vertical-align: top;
+        }
+        .site-footer {
+            border-top: 1px solid #dddddd;
+            color: #888888;
+            font-size: 14px;
+            padding: 22px 0 34px;
+            text-align: center;
+        }
+        @media (max-width: 780px) {
+            .wrapper {
+                padding: 0 18px;
+            }
+            h1 {
+                font-size: 32px;
+            }
+            .top-grid {
+                display: block;
+                padding: 30px 0 30px;
+            }
+            .updates-column {
+                border-top: 1px solid #dddddd;
+                margin-top: 28px;
+                padding-top: 26px;
+            }
+            .profile-photo {
+                float: none;
+                margin: 0 0 18px;
+                width: 165px;
+            }
         }
     </style>
-    <title> Cheng-Syuan Wan </title>
+    <title>Cheng-Syuan Wan</title>
     <link rel="icon" type="image/png" href="favicon-trans.png">
 </head>
 <body>
-    <div><h1><p>Cheng-Syuan Wan</p></h1>
-        <img src="avatar3.png" style="width:12%;height:12%;">
-    </div> 
-    <hr/>
-    <div>
-        I am a researcher in the <a href="https://cs.ioc.ee/lsg/">Logic and Semantics Group</a> at <a href="https://taltech.ee/en/">Tallinn University of Technology</a>.
-        <br/> 
-        I was a PhD student in the same group during January 2021 to June 2025.
-        My supervisors were <a href="https://cs.ioc.ee/~tarmo/">Tarmo Uustalu</a> and <a href="https://niccoloveltri.github.io/">Niccolò Veltri</a>.
-        <!-- <br/>
-        Here is my <a href="https://cswphilo.github.io/CV.pdf">CV</a>. -->
+    <div class="wrapper" id="home">
+        <div class="top-grid">
+            <div class="intro-column">
+                <section class="intro-section">
+                    <h1>Cheng-Syuan Wan</h1>
+                    <p class="site-description">Researcher in structural proof theory, substructural logic, and formalization of mathematics</p>
+                    <img class="profile-photo" src="avatar3.png" alt="Cheng-Syuan Wan">
+                    <p>
+                        I am a researcher in the <a href="https://cs.ioc.ee/lsg/">Logic and Semantics Group</a> at <a href="https://taltech.ee/en/">Tallinn University of Technology</a>.
+                    </p>
+                    <p>
+                        I was a PhD student in the same group during January 2021 to June 2025.
+                        My supervisors were <a href="https://cs.ioc.ee/~tarmo/">Tarmo Uustalu</a> and <a href="https://niccoloveltri.github.io/">Niccolò Veltri</a>.
+                    </p>
+                </section>
+
+                <section id="contact">
+                    <h2>Contact</h2>
+                    <table class="contact-table">
+                        <tr>
+                            <td><b>Email:</b></td>
+                            <td>cswan at cs ioc ee</td>
+                        </tr>
+                        <tr>
+                            <td><b>Address:</b></td>
+                            <td>ICT-227, Akadeemia tee 15a, 12618 Tallinn, Estonia</td>
+                        </tr>
+                    </table>
+                </section>
+
+                <section id="research">
+                    <h2>Research Interests</h2>
+                    <p>
+                        Structural proof theory, substructural logic, categorical and algebraic semantics, formalization of mathematics.
+                    </p>
+                </section>
+            </div>
+
+            <aside class="updates-column">
+                <section class="widget" id="updates">
+                    <h2 class="widget-title">Latest News</h2>
+                    <ul class="news-list">
+                        <li>
+                            <time datetime="2026-07">July 2026</time>
+                            <b>Glivenko's theorem underneath structure</b> to appear at CiE 2026.
+                        </li>
+                        <li>
+                            <time datetime="2025">2025</time>
+                            <b>Proof Theory of Semi-Substructural Logics</b>, my PhD thesis, is available from the TalTech Digital Library.
+                        </li>
+                        <li>
+                            <time datetime="2025">2025</time>
+                            <b>An Agda formalization of nonassociative Lambek calculus and its metatheory</b> appeared in TABLEAUX'25.
+                        </li>
+                        <li>
+                            <time datetime="2025">2025</time>
+                            <b>Semi-substructural logics à la Lambek with symmetry</b> appeared in the Bulletin of the Section of Logic.
+                        </li>
+                    </ul>
+                </section>
+            </aside>
+        </div>
+
+        <main class="main-content">
+                <section id="publications">
+                    <h2>Publications</h2>
+                    <ol class="publication-list">
+                        <li>R. Borsetto, G. Fellin, T. Uustalu, C.-S. Wan. <b>Glivenko's theorem underneath structure.</b>
+                        <br>
+                            In V. Brattka, H. Fernau, L. Galeotti, eds., <em>Proc. of 21st Int. Conf. on Computability in Europe, CiE 2026 (Trier, July 2026)</em>, <em>Lect. Notes in Comput. Sci.</em>, Springer, to appear.
+                        </li>
+                        <li>C.-S. Wan. <b>Semi-substructural logics à la Lambek with symmetry.</b>
+                        <br>
+                        <em>Bulletin of the Section of Logic</em>, 2025.
+                        <br>
+                            <a href="https://czasopisma.uni.lodz.pl/bulletin/article/view/24426/28362">paper</a>
+                        </li>
+                        <li>N. Veltri, C.-S. Wan. <b>An Agda formalization of nonassociative Lambek calculus and its metatheory.</b>
+                        <br>
+                        In G. L. Pozzato, T. Uustalu, eds., <em>Proc. of 34th Int. Conf. on Automated Reasoning with Analytic Tableaux and Related Methods, TABLEAUX'25 (Reykjavik, Sept.-Oct. 2025)</em>, <em>v. 15980 of Lect. Notes in Comput. Sci.</em>, pp. 433-452, Springer, 2025.
+                        <br>
+                        <a href="https://github.com/cswphilo/nonassociative-Lambek/tree/main/code">Agda code</a>
+                        <a href="https://link.springer.com/content/pdf/10.1007/978-3-032-06085-3_23.pdf" target="_blank">paper</a>
+                        </li>
+                        <li>N. Veltri, C.-S. Wan. <b>Craig Interpolation for a semi-substructural logic.</b>
+                        <br>
+                        <em>Studia Logica</em>, to appear, 2025.
+                        <br>
+                        <a href="https://github.com/niccoloveltri/code-skewmonclosed/tree/interpolation">Agda code</a>
+                        <a href="https://cswphilo.github.io/papers/skInterpolation.pdf" target="_blank">paper</a>
+                        </li>
+                        <li>C.-S. Wan. <b>Semi-substructural logics à la Lambek.</b>
+                        <br>
+                            In A. Indrzejczak, M. Zawidzki, eds., <em>Proc. of 11th Int. Conf. on Non-classical Logics: Theory and Applications, NCL 2024 (Lódź, September 2024)</em>, v. 415 of <em>Electron. Proc. in Theor. Comput. Sci.</em>, pp. 195-213. Open Publishing Assoc., 2024.
+                        <br>
+                            <a href="https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?NCL24.18.pdf">paper</a>
+                        </li>
+                        <li>N. Veltri, C.-S. Wan. <b>Semi-substructural logics with additives.</b>
+                        <br>
+                            In T. Kutsia, D. Ventura, D. Monniaux, J. F. Morales, eds., <em>Proc. of 18th Int. Wksh. on Logical and Semantic Frameworks with Applications, LSFA 2023 (Rome, July 2023) and 10th Wksh. of Horn Clauses for Verification and Synthesis, HCVS 2023 (Paris, Apr. 2023)</em>, v. 402 of <em>Electron. Proc. in Theor. Comput. Sci.</em>, pp. 63-80. Open Publishing Assoc., 2024
+                        <br>
+                            <a href="https://github.com/cswphilo/SkewMonAdd">Agda code</a>
+                            <a href="https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?LSFA2023.8.pdf">paper</a>
+                        </li>
+                        <li>T. Uustalu, N. Veltri, C.-S. Wan. <b>Proof theory of skew non-commutative MILL.</b>
+                        <br>
+                            In A. Indrzejczak, M. Zawidzki, eds., <em>Proc. of 10th Int. Conf. on Non-classical Logics: Theory and Applications, NCL 2022 (Lódź, March 2022)</em>, v. 358 of <em>Electron. Proc. in Theor. Comput. Sci.</em>, pp. 118-135. Open Publishing Assoc., 2022.
+                        <br>
+                            <a href="https://github.com/niccoloveltri/code-skewmonclosed">Agda code</a>
+                            <a href="https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?NCL2022.9.pdf">paper</a>
+                        </li>
+                    </ol>
+                </section>
+
+                <section id="thesis">
+                    <h2>PhD Thesis</h2>
+                    <ul>
+                        <li>
+                            C.-S. Wan. <b>Proof Theory of Semi-Substructural Logics.</b>
+                            <br>
+                            Doctoral Thesis, Tallinn University of Technology, 2025.
+                            <br>
+                            <a href="https://github.com/cswphilo/code-PhD-thesis">Agda code</a>
+                            <a href="https://digikogu.taltech.ee/et/Item/34f5f36e-f48f-400b-bca1-2a59ac30c392">TalTech Digital Library</a>
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="presentations">
+                    <h2>Presentations</h2>
+                    <ul class="presentation-list">
+                        <li><b>Proof relevance and well-definedness of Maehara interpolation for Lambek calculi</b> at
+                            <ul>
+                                <li><a href="https://www.lix.polytechnique.fr/proofs-algorithms/seminar/">Logic, models and formal methods Seminar</a>, Palaiseau.</li>
+                            </ul>
+                        </li>
+                        <li><b>An Agda formalization of nonassociative Lambek calculus</b> at
+                            <ul>
+                                <li><a href="https://theorydays2025.quantum.lu.lv/">Theory Days'25</a>, Sigulda.</li>
+                                <li><a href="https://icetcs.github.io/frocos-itp-tableaux25/tableaux/">TABLEAUX'25</a>, Reykjavík.</li>
+                                <li><a href="https://iphils.uj.edu.pl/clock/">CLoCk'25</a>, Kraków.</li>
+                            </ul>
+                        </li>
+                        <li><b>Proof Theory of Semi-Substructural Logics</b> at
+                            <ul>
+                                <li><a href="https://www.cmat.uminho.pt/events/proof-theory-skew-logics">ALC Seminar</a>, Braga.</li>
+                                <li><a href="https://www.iis.sinica.edu.tw/zh/page/Events/seminar.html">IIS Seminar, Academia Sinica</a>, Taipei.</li>
+                                <li><a href="https://sites.google.com/view/pacman2025-rome/programme">PACM&and;N'25</a>, Rome.</li>
+                            </ul>
+                        </li>
+                        <li><b>Semi-Substructural Logics à la Lambek</b> at
+                            <ul>
+                                <li><a href="https://easychair.org/smart-program/NCL'24/index.html">NCL'24</a>, Łódź.</li>
+                            </ul>
+                        </li>
+                        <li><b>Craig Interpolation for Semi-Substructural Logics</b> at
+                            <ul>
+                                <li><a href="https://proofsociety2024.com/">PS'24</a>, Birmingham.</li>
+                                <li><a href="https://lipn.univ-paris13.fr/TLLA/2024/">TLLA'24</a>, Tallinn.</li>
+                            </ul>
+                        </li>
+                        <li><b>Semi-Substructural Logics with Additives</b> at
+                            <ul>
+                                <li><a href="https://sites.google.com/ufg.br/lsfa2023/">LSFA'23</a>, Rome.</li>
+                            </ul>
+                        </li>
+                        <li><b>Towards Skew Non-Commutative MILL with Additives</b> at
+                            <ul>
+                                <li><a href="https://lc2023.unimi.it/">LC'23</a>, Milan.</li>
+                            </ul>
+                        </li>
+                        <li><b>Skew multiplicative intuitionistic linear logic</b> at
+                            <ul>
+                                <li><a href="https://plexuslogic.wordpress.com/plexus-inaugural-conference/">PLEXUS Inaugural Conference</a>, Lisbon.</li>
+                                <li><a href="https://cs.ioc.ee/lsg/wld23/">WLD'23</a>, Tallinn.</li>
+                            </ul>
+                        </li>
+                        <li><b>Proof theory of skew non-commutative MILL</b> at
+                            <ul>
+                                <li><a href="http://icetcs.ru.is/lc2022/">LC'22</a>, Reykjavík.</li>
+                                <li><a href="https://theorydays2022.quantum.lu.lv/">Theory Days'22</a>, Riga.</li>
+                                <li><a href="https://easychair.org/smart-program/NCL'22/">NCL'22</a>, Łódź.</li>
+                                <li><a href="https://cs.ioc.ee/lsg/wld22/">WLD'22</a>, Tallinn.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+        </main>
+
+        <footer class="site-footer">
+            Last update 30.06.2026
+            <!-- Last update 05.05.2026 -->
+            <!-- Last update 04.03.2026 -->
+            <!-- Last update 18.10.2025 -->
+            <!-- Last update 29.09.2025 -->
+            <!-- Last update 04.07.2025 -->
+            <!-- Last update 01.07.2025 -->
+            <!-- Last update 15.05.2025 -->
+        </footer>
     </div>
-    <hr/>
-    <div>
-        <h3>Contact</h3>
-        <table>
-            <tr>
-                <td><b>Email: </b></td> <td> cswan at cs ioc ee </td>
-            </tr>
-            <tr>
-                <td><b>Address: </b></td> <td>ICT-227, Akadeemia tee 15a, 12618 Tallinn, Estonia</td>
-            </tr> 
-        </table>
-    </div>
-    <hr/>
-    <div>
-        <h3>Research Interests</h3>
-        Structural proof theory, substructural logic, categorical and algebraic semantics, formalization of mathematics.
-        <!-- I am interested in structural proof theory and its connection with other disciplines. 
-        <br/>
-        In particular, I am now working on 
-        <ul>
-            <li>characterizing proof systems for variants of skew monoidal categories, </li>
-            <li>constructing categorical models for variants of multiplicative intuitionistic linear logics, </li>
-            <li>formalization of aforementioned proof systems in Agda.</li>
-        </ul> -->
-<!-- Keywords:  -->
-<!-- <a href="https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence">Curry-Howard-Lambek correspondence</a>, <a href="https://plato.stanford.edu/entries/proof-theory/#NewLogiCalc">structural proof theory</a>, <a href="https://plato.stanford.edu/entries/logic-intuitionistic/">intuitionistic logic</a>, <a href="https://en.wikipedia.org/wiki/Categorical_logic">categorical logic</a>, <a href="https://plato.stanford.edu/entries/logic-linear/">linear logic</a>, skew monoidal category, <a href="https://agda.readthedocs.io/en/v2.6.2.2/getting-started/what-is-agda.html">Agda</a> -->
-    </div>
-    <hr/>
-    <div>
-        <h3>Publications</h3>
-    <ol>
-        <li>R. Borsetto, G. Fellin, T. Uustalu, C.-S. Wan. <b>Glivenko's theorem underneath structure.</b> 
-        <br />
-            In V. Brattka, H. Fernau, L. Galeotti, eds., <em>Proc. of 21st Int. Conf. on Computability in Europe, CiE 2026 (Trier, July 2026)</em>, <em>Lect. Notes in Comput. Sci.</em>, Springer, to appear.
-        <!-- <br />
-            <a href="https://github.com/niccoloveltri/code-skewmonclosed">Agda code</a> 
-            <a href="https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?NCL2022.9.pdf">pdf</a> -->
-        </li>
-        <li>C.-S. Wan. <b>Semi-substructural logics à la Lambek with symmetry.</b>
-        <br/>
-        <em>Bulletin of the Section of Logic</em>, 2025.
-        <br />
-            <!-- <a href="https://github.com/niccoloveltri/code-skewmonclosed">Agda code</a>  -->
-            <a href="https://czasopisma.uni.lodz.pl/bulletin/article/view/24426/28362">paper</a>
-        </li>
-        <li>N. Veltri, C.-S. Wan. <b>An Agda formalization of nonassociative Lambek calculus and its metatheory.</b> 
-        <br />
-        In G. L. Pozzato, T. Uustalu, eds., <em>Proc. of 34th Int. Conf. on Automated Reasoning with Analytic Tableaux and Related Methods, TABLEAUX'25 (Reykjavik, Sept.-Oct. 2025)</em>, <em>v. 15980 of Lect. Notes in Comput. Sci.</em>, pp. 433-452, Springer, 2025.
-        <br />
-        <a href="https://github.com/cswphilo/nonassociative-Lambek/tree/main/code">Agda code</a> 
-        <a href="https://link.springer.com/content/pdf/10.1007/978-3-032-06085-3_23.pdf" target="_blank">paper</a>
-        </li>
-        <li>N. Veltri, C.-S. Wan. <b>Craig Interpolation for a semi-substructural logic.</b> 
-        <br />
-        <em>Studia Logica</em>, to appear, 2025.
-        <br />
-        <a href="https://github.com/niccoloveltri/code-skewmonclosed/tree/interpolation">Agda code</a> 
-        <a href="https://cswphilo.github.io/papers/skInterpolation.pdf" target="_blank">paper</a>
-        </li>
-        <li>C.-S. Wan. <b>Semi-substructural logics à la Lambek.</b> 
-        <br />
-            In A. Indrzejczak, M. Zawidzki, eds., <em>Proc. of 11th Int. Conf. on Non-classical Logics: Theory and Applications, NCL 2024 (Lódź, September 2024)</em>, v. 415 of <em>Electron. Proc. in Theor. Comput. Sci.</em>, pp. 195-213. Open Publishing Assoc., 2024. 
-        <br />
-            <!-- <a href="https://github.com/cswphilo/SkewMonAdd">Agda code</a>  -->
-            <a href="https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?NCL24.18.pdf">paper</a>
-        </li>
-        <li>N. Veltri, C.-S. Wan. <b>Semi-substructural logics with additives.</b> 
-        <br />
-            In T. Kutsia, D. Ventura, D. Monniaux, J. F. Morales, eds., <em>Proc. of 18th Int. Wksh. on Logical and Semantic Frameworks with Applications, LSFA 2023 (Rome, July 2023) and 10th Wksh. of Horn Clauses for Verification and Synthesis, HCVS 2023 (Paris, Apr. 2023)</em>, v. 402 of <em>Electron. Proc. in Theor. Comput. Sci.</em>, pp. 63-80. Open Publishing Assoc., 2024 
-        <br />
-            <a href="https://github.com/cswphilo/SkewMonAdd">Agda code</a> 
-            <a href="https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?LSFA2023.8.pdf">paper</a>
-        </li>
-        <li>T. Uustalu, N. Veltri, C.-S. Wan. <b>Proof theory of skew non-commutative MILL.</b> 
-        <br />
-            In A. Indrzejczak, M. Zawidzki, eds., <em>Proc. of 10th Int. Conf. on Non-classical Logics: Theory and Applications, NCL 2022 (Lódź, March 2022)</em>, v. 358 of <em>Electron. Proc. in Theor. Comput. Sci.</em>, pp. 118-135. Open Publishing Assoc., 2022. 
-        <br />
-            <a href="https://github.com/niccoloveltri/code-skewmonclosed">Agda code</a> 
-            <a href="https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?NCL2022.9.pdf">paper</a>
-        </li>
-    </ol>
-    </div>
-    <div>
-    <h3>PhD Thesis</h3>
-    <ul>
-    <li>
-        C.-S. Wan. <b>Proof Theory of Semi-Substructural Logics.</b>
-        <br/>
-        Doctoral Thesis, Tallinn University of Technology, 2025.
-        <br/>
-        <a href="https://github.com/cswphilo/code-PhD-thesis">Agda code</a> 
-        <a href="https://digikogu.taltech.ee/et/Item/34f5f36e-f48f-400b-bca1-2a59ac30c392">Taltech Digital Library</a>
-        </li>
-    </ul>
-    </div>
-    <hr/>
-    <div>
-        <!-- <h3>Manuscripts</h3>
-    <ol>
-        <li>C.-S Wan. <b>Semi-Substructural Logics à la Lambek with Symmetry</b>
-        <br />
-        <a href="https://cswphilo.github.io/papers/symSkBiCl.pdf" target="_blank">pdf</a>
-        </li>
-    </ol>
-    </div> -->
-    <!-- <hr/> -->
-    <div>
-        <h3 id="presentations">Presentations</h3>
-        <ul>
-            <li><b>Proof relevance and well-definedness of Maehara interpolation for Lambek calculi</b> at
-                <ul>
-                    <li><a href="https://www.lix.polytechnique.fr/proofs-algorithms/seminar/">Logic, models and formal methods Seminar</a>, Palaiseau.</li>
-                </ul>
-            </li>
-            <li><b>An Agda formalization of nonassociative Lambek calculus </b> at
-                <ul>
-                    <li><a href="https://theorydays2025.quantum.lu.lv/">Theory Days'25</a>, Sigulda.</li>
-                    <li><a href="https://icetcs.github.io/frocos-itp-tableaux25/tableaux/">TABLEAUX'25</a>, Reykjavík. </li>
-                    <li><a href="https://iphils.uj.edu.pl/clock/">CLoCk'25</a>, Kraków. </li>
-                </ul>
-            <li><b>Proof Theory of Semi-Substructural Logics </b> at
-                <ul>
-                    <li><a href="https://www.cmat.uminho.pt/events/proof-theory-skew-logics">ALC Seminar</a>, Braga. </li>
-                    <li><a href="https://www.iis.sinica.edu.tw/zh/page/Events/seminar.html">IIS Seminar, Academia Sinica </a>, Taipei. </li>
-                    <li><a href="https://sites.google.com/view/pacman2025-rome/programme">PACM&and;N'25</a>, Rome. </li>
-                </ul>
-           <li><b>Semi-Substructural Logics à la Lambek </b> at
-                <ul>
-                    <li><a href="https://easychair.org/smart-program/NCL'24/index.html">NCL'24</a>, Łódź. </li>
-                </ul>
-           <li><b>Craig Interpolation for Semi-Substructural Logics </b> at
-                <ul>
-                    <li><a href="https://proofsociety2024.com/">PS'24</a>, Birmingham. </li>
-                    <li><a href="https://lipn.univ-paris13.fr/TLLA/2024/">TLLA'24</a>, Tallinn. </li>
-                </ul>
-           <li><b>Semi-Substructural Logics with Additives</b> at
-                <ul>
-                    <li><a href="https://sites.google.com/ufg.br/lsfa2023/">LSFA'23</a>, Rome. </li>
-                </ul>
-           <li><b>Towards Skew Non-Commutative MILL with Additives</b> at
-            <ul>
-                <li><a href="https://lc2023.unimi.it/">LC'23</a>, Milan. </li>
-            </ul>
-           <li><b>Skew multiplicative intuitionistic linear logic</b> at
-            <ul>
-                <li><a href="https://plexuslogic.wordpress.com/plexus-inaugural-conference/">PLEXUS Inaugural Conference</a>, Lisbon. </li>
-                <li><a href="https://cs.ioc.ee/lsg/wld23/">WLD'23</a>, Tallinn. </li>           
-            </ul>
-           </li>
-           <li><b>Proof theory of skew non-commutative MILL</b> at 
-            <ul>
-                <li><a href="http://icetcs.ru.is/lc2022/">LC'22</a>, Reykjavík. </li>
-                <li><a href="https://theorydays2022.quantum.lu.lv/">Theory Days'22</a>, Riga. </li>
-                <li><a href="https://easychair.org/smart-program/NCL'22/">NCL'22</a>, Łódź. </li>
-                <li><a href="https://cs.ioc.ee/lsg/wld22/">WLD'22</a>, Tallinn. </li>
-            </ul>
-            </li>
-        </ul>
-    </div>
-    <address>
-        Last update 05.05.2026
-        <!-- Last update 04.03.2026 -->
-        <!-- Last update 18.10.2025 -->
-        <!-- Last update 29.09.2025 -->
-        <!-- Last update 04.07.2025 -->
-        <!-- Last update 01.07.2025 -->
-        <!-- Last update 15.05.2025 -->
-    </address>
 </body>
+</html>
